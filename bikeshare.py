@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import calendar
 import matplotlib.pyplot as plt
-#import os
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -175,7 +175,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def raw_data(df):
+def raw_data_function(df):
     """ Display 5 lines of raw data upon request """
     
     showdata = input('\nDo you want to see 5 lines of raw data? (yes) or (no)\n')
@@ -219,7 +219,7 @@ def main():
         user_stats(df)
         print(df.head(10))
         print(df.describe())
-        raw_data(df)            # ask input to raw data and display 5 lines  
+        raw_data_function(df)            # ask input to raw data and display 5 lines  
         
         showplot = input('\nDo you want to see a plot of the avareage monthly usage time of the bikes across all data in your selected city? (yes) or (no)\n')
         if showplot.lower() == "yes":
