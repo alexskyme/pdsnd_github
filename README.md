@@ -10,7 +10,7 @@ The project was created in 12/2023 to finish the *Udacity* repo project.
 The project shows the bikeshare data of a company. Data can be seen of all bike rentals from start to finish, the trip duration and timestamp etc.
 
 ### Files used
-Include the files used
+The files used in the project are the main python file *bikeshare.py* and 3 data files of washington.csv, new_york_city.csv and chicago.csv.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
