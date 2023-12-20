@@ -13,5 +13,5 @@ The project shows the bikeshare data of a company. Data can be seen of all bike 
 The files used in the project are the main python file *bikeshare.py* and 3 data files of washington.csv, new_york_city.csv and chicago.csv.
 
 ### Credits
-Credits go out the the bikeshare company for sharing its data.
+Credits go out the the bikeshare company for sharing its data. And Udacity to show the details of how to do _things_ as an example.
 
