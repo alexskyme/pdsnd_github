@@ -7,7 +7,7 @@ The project was created in 12/2023 to finish the *Udacity* repo project.
 *Bikeshare* statistics of company _XYZ_ 
 
 ### Description
-Describe what your project is about and what it does
+The project shows the bikeshare data of a company. Data can be seen of all bike rentals from start to finish, the trip duration and timestamp etc.
 
 ### Files used
 Include the files used
